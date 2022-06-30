@@ -244,7 +244,6 @@ hr {
 }
 
 .section--devices {
-  padding-bottom: 0;
   background: url("../images/devices-bg.jpg"), center, no-repeat;
   background-size: cover;
 }
@@ -410,24 +409,4 @@ hr {
 .servises__text {
   font-size: 15px;
   color: #999;
-}
-
-/*divaces*/
-
-.divaces {
-  width: 100%;
-  max-width: 600px;
-  margin: 0 auto;
-  position: relative;
-}
-
-.divaces__item {
-  display: block;
-}
-
-.divaces__item--iphone {
-  position: absolute;
-  bottom: -80px;
-  right: 0;
-  z-index: 1;
 }

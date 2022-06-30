@@ -418,16 +418,4 @@ hr {
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
-  position: relative;
-}
-
-.divaces__item {
-  display: block;
-}
-
-.divaces__item--iphone {
-  position: absolute;
-  bottom: -80px;
-  right: 0;
-  z-index: 1;
 }

@@ -424,10 +424,3 @@ hr {
 .divaces__item {
   display: block;
 }
-
-.divaces__item--iphone {
-  position: absolute;
-  bottom: -80px;
-  right: 0;
-  z-index: 1;
-}
