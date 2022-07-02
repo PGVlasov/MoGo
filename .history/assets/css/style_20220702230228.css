@@ -250,9 +250,9 @@ hr {
   margin-bottom: 40px;
 }
 
-.section--gray {
+/* .section--gray {
   background-color: #f8f8f8;
-}
+} */
 .section__header {
   margin: 0 auto 40px;
   width: 100%;
@@ -520,7 +520,6 @@ hr {
 /*revievs*/
 .reviews {
   padding: 0 110px;
-  position: relative;
 }
 .reviews__item {
   padding-left: 205px;
@@ -532,8 +531,6 @@ hr {
   left: 0;
   top: 0;
   z-index: 1;
-
-  border: 2px solid #95e1d3;
 }
 
 .reviews__text {
@@ -559,32 +556,4 @@ hr {
   margin-right: 10px;
 
   background-color: #f38181;
-}
-
-.reviews__button {
-  font-size: 0;
-  color: transparent;
-  position: absolute;
-  top: 50%;
-  z-index: 1;
-  transform: translateY(-50%);
-}
-
-.reviews__button::after {
-  content: "";
-  display: block;
-  width: 16px;
-  height: 16px;
-
-  border-top: 2px solid #ccc;
-  border-left: 2px solid #ccc;
-}
-
-.reviews__button--prev {
-  left: 0;
-  transform: rotate(-45deg);
-}
-.reviews__button--next {
-  right: 0;
-  transform: rotate(135deg);
 }

@@ -250,9 +250,9 @@ hr {
   margin-bottom: 40px;
 }
 
-.section--gray {
+/* .section--gray {
   background-color: #f8f8f8;
-}
+} */
 .section__header {
   margin: 0 auto 40px;
   width: 100%;
@@ -578,13 +578,10 @@ hr {
 
   border-top: 2px solid #ccc;
   border-left: 2px solid #ccc;
-}
 
-.reviews__button--prev {
-  left: 0;
-  transform: rotate(-45deg);
-}
-.reviews__button--next {
-  right: 0;
-  transform: rotate(135deg);
+  position: absolute;
+  top: 50%;
+  right: 20px;
+
+  transform: translateY(-50%) rotate(45deg);
 }

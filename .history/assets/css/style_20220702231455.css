@@ -578,13 +578,13 @@ hr {
 
   border-top: 2px solid #ccc;
   border-left: 2px solid #ccc;
+
+  transform: rotate(-45deg);
 }
 
 .reviews__button--prev {
   left: 0;
-  transform: rotate(-45deg);
 }
 .reviews__button--next {
   right: 0;
-  transform: rotate(135deg);
 }
