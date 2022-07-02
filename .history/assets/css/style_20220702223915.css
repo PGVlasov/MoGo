@@ -250,9 +250,9 @@ hr {
   margin-bottom: 40px;
 }
 
-/* .section--gray {
+.section--gray {
   background-color: #f8f8f8;
-} */
+}
 .section__header {
   margin: 0 auto 40px;
   width: 100%;
@@ -515,11 +515,4 @@ hr {
   font-size: 14px;
   text-transform: uppercase;
   color: #333;
-}
-
-/*revievs*/
-.reviews {
-  padding: 0 110px;
-}
-.reviews__item {
 }
