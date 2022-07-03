@@ -251,8 +251,7 @@ hr {
 }
 
 .section-clients {
-  background: url("../images/clients-bg.jpg") center no-repeat;
-  background-size: cover;
+  background-color: #f5f5f5;
 }
 
 .section--gray {
@@ -722,7 +721,6 @@ hr {
 /**/
 
 .clients {
-  margin-top: 70px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -732,8 +730,6 @@ hr {
 
   padding: 0 45px 0 175px;
   position: relative;
-
-  margin-bottom: 60px;
 }
 
 .clients__photo {
@@ -764,14 +760,4 @@ hr {
 .claents__text {
   font-size: 15px;
   color: #999;
-}
-
-.claents__text::before {
-  margin: 20px 0;
-  content: "";
-  display: block;
-  width: 60px;
-  height: 3px;
-
-  background-color: #f38181;
 }

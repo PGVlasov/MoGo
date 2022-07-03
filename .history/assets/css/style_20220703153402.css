@@ -250,11 +250,6 @@ hr {
   margin-bottom: 40px;
 }
 
-.section-clients {
-  background: url("../images/clients-bg.jpg") center no-repeat;
-  background-size: cover;
-}
-
 .section--gray {
   background-color: #f8f8f8;
 }
@@ -363,7 +358,7 @@ hr {
 .card__name {
   text-transform: uppercase;
   font-size: 14px;
-  color: #333;
+  color: #fff;
   margin-bottom: 5px;
 }
 
@@ -474,7 +469,7 @@ hr {
   width: 50%;
 }
 
-/*accordion*/
+/**/
 .accordion__item {
   border: 1px solid #e5e5e5;
   margin-bottom: 10px;
@@ -546,22 +541,21 @@ hr {
 
 /*revievs*/
 .reviews {
-  padding: 10px 110px;
+  padding: 0 110px;
   position: relative;
 }
 .reviews__item {
-  padding-left: 255px;
+  padding-left: 205px;
   position: relative;
 }
 
-.reviews__img {
+.revews__img {
   position: absolute;
-  top: 0;
   left: 0;
+  top: 0;
   z-index: 1;
 
   border: 2px solid #95e1d3;
-  border-radius: 50%;
 }
 
 .reviews__text {
@@ -572,7 +566,7 @@ hr {
   margin-bottom: 15px;
 }
 
-.reviews__author {
+.reviews_author {
   font-family: "Kaushan Script", cursive;
   font-size: 24px;
   color: #000;
@@ -647,131 +641,4 @@ hr {
 
 .socials_item:last-child {
   border-right: 0;
-}
-
-/*logos*/
-
-.logos {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/*works*/
-
-.works {
-  display: flex;
-}
-
-.works__col {
-  flex: 1 1 0;
-}
-
-.works__item {
-  position: relative;
-
-  background: linear-gradient(to bottom, #f38181, #fce38a);
-}
-
-.works__item:hover .works__image {
-  opacity: 0.1;
-}
-
-.works__item:hover .works__info {
-  opacity: 1;
-}
-
-.works__image {
-  display: block;
-  transition: opacity 0.2s linear;
-
-  max-width: 100%;
-  height: auto;
-}
-
-.works__info {
-  width: 100%;
-
-  padding: 0 15px;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  z-index: 1;
-
-  transform: translate3d(0, -50%, 0);
-
-  text-align: center;
-  color: #fff;
-
-  transition: opacity 0.2s linear;
-}
-
-.works__title {
-  color: #fff;
-  font-size: 14px;
-  text-transform: uppercase;
-  margin-bottom: 5px;
-}
-
-.works__text {
-  font-size: 15px;
-  font-weight: 300;
-  font-style: italic;
-}
-
-/**/
-
-.clients {
-  margin-top: 70px;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.clients__item {
-  width: 50%;
-
-  padding: 0 45px 0 175px;
-  position: relative;
-
-  margin-bottom: 60px;
-}
-
-.clients__photo {
-  width: 110px;
-  height: 110px;
-  position: absolute;
-  top: 0;
-  left: 40px;
-  z-index: 1;
-
-  border-radius: 50%;
-}
-
-.clients__name {
-  color: #333;
-  text-transform: uppercase;
-  font-size: 14px;
-  margin-bottom: 5px;
-}
-
-.clients__prof {
-  font-size: 15px;
-  color: #333;
-  font-style: italic;
-  font-weight: 300;
-}
-
-.claents__text {
-  font-size: 15px;
-  color: #999;
-}
-
-.claents__text::before {
-  margin: 20px 0;
-  content: "";
-  display: block;
-  width: 60px;
-  height: 3px;
-
-  background-color: #f38181;
 }

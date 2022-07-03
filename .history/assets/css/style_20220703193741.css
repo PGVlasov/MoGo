@@ -251,8 +251,7 @@ hr {
 }
 
 .section-clients {
-  background: url("../images/clients-bg.jpg") center no-repeat;
-  background-size: cover;
+  background-color: url("./assets/images/clients-bg.jpg") center no-repeat;
 }
 
 .section--gray {
