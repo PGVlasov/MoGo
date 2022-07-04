@@ -268,8 +268,7 @@ hr {
 }
 
 .section--map {
-  background: url("../images/map-bg.jpg") center no-repeat;
-  background-size: cover;
+  background-color: url("../images/map-bg.jpg") center no-repeat;
 }
 
 .section__subtitle {
@@ -901,11 +900,4 @@ hr {
   background-color: #f38181;
 
   margin: 10px auto 0px;
-}
-
-/*footer*/
-
-.footer {
-  background-color: #f8f8f8;
-  padding-top: 65px;
 }
