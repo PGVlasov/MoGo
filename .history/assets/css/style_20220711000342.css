@@ -471,8 +471,6 @@ hr {
 
 .divaces__item {
   display: block;
-  max-width: 100%;
-  height: auto;
 }
 
 .divaces__item--iphone {
@@ -486,19 +484,10 @@ hr {
 
 .wedo {
   display: flex;
-  flex-wrap: wrap;
-  margin: 0 -15px;
 }
 
 .wedo__item {
   width: 50%;
-  padding: 0 15px;
-}
-
-.wedo__image {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
 
 /*accordion*/
@@ -1179,11 +1168,6 @@ hr {
   /*srevises*/
   .servises__item {
     width: 50%;
-    padding-bottom: 0;
-  }
-
-  .servises__item--border {
-    border: 0;
   }
 }
 
@@ -1214,10 +1198,6 @@ hr {
     padding: 40px 0;
   }
 
-  .section--devices {
-    padding-bottom: 0;
-  }
-
   /*slider*/
 
   .slider_text {
@@ -1226,30 +1206,6 @@ hr {
 
   .slider__item.active:before {
     width: 50%;
-  }
-
-  /*srevises*/
-
-  .servises {
-    justify-content: center;
-  }
-
-  .servises__item {
-    width: 100%;
-    max-width: 400px;
-    padding-left: 55px;
-    padding-right: 0;
-  }
-
-  .servises__icon {
-    left: 0;
-  }
-
-  .wedo__image {
-    display: none;
-  }
-  .wedo__item {
-    width: 100%;
   }
 }
 
@@ -1296,16 +1252,5 @@ hr {
 
   .stat__count {
     font-size: 52px;
-  }
-
-  /*divaces*/
-  .divaces {
-    max-width: 320px;
-  }
-
-  .divaces__item--iphone {
-    width: 180px;
-    bottom: -50px;
-    right: -80px;
   }
 }

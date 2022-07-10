@@ -305,10 +305,9 @@ hr {
 
 .card {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
 
-  margin: 80px -15px 0;
+  margin-top: 80px;
 }
 
 .card__inner {
@@ -318,8 +317,7 @@ hr {
 }
 
 .card__item {
-  width: 33.3333333%;
-  padding: 0 15px;
+  width: 380px;
 }
 
 .card__item:hover .card__text {
@@ -342,8 +340,6 @@ hr {
 
 .card__image img {
   display: block;
-  max-width: 100%;
-  height: auto;
   transition: opacity 0.1s linear;
 }
 
@@ -392,7 +388,6 @@ hr {
 
 .stat {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .stat__item {
@@ -427,18 +422,13 @@ hr {
 
 .services {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .servises__item {
-  width: 33.3333%;
-  padding: 0 35px 30px 85px;
+  flex: 1 1 0;
+  padding-left: 70px;
+  padding-right: 20px;
   position: relative;
-  margin-bottom: 30px;
-}
-
-.servises__item--border {
-  border-bottom: 1px solid #e5e5e5;
 }
 
 .servises__icon {
@@ -471,8 +461,6 @@ hr {
 
 .divaces__item {
   display: block;
-  max-width: 100%;
-  height: auto;
 }
 
 .divaces__item--iphone {
@@ -486,19 +474,10 @@ hr {
 
 .wedo {
   display: flex;
-  flex-wrap: wrap;
-  margin: 0 -15px;
 }
 
 .wedo__item {
   width: 50%;
-  padding: 0 15px;
-}
-
-.wedo__image {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
 
 /*accordion*/
@@ -1157,99 +1136,15 @@ hr {
   .intro__title {
     font-size: 80px;
   }
-
-  /*statistic*/
-
-  .stat {
-    justify-content: center;
-  }
-
-  .stat__item {
-    flex: none;
-    width: 33.333333%;
-    border: 0;
-
-    padding: 30px 0;
-  }
-
-  .stat__item:last-child {
-    border-right: 0;
-  }
-
-  /*srevises*/
-  .servises__item {
-    width: 50%;
-    padding-bottom: 0;
-  }
-
-  .servises__item--border {
-    border: 0;
-  }
 }
 
 @media (max-width: 770px) {
-  /*Nav*/
-  .nav {
-    display: none;
+  /*Intro*/
+  .intro__suptitle {
+    font-size: 22px;
   }
-
-  /*card*/
-  .card {
-    justify-content: center;
-    margin-top: 45px;
-  }
-  .card__item {
-    width: 100%;
-    max-width: 410px;
-    margin-bottom: 30px;
-  }
-
-  .card__item:last-child {
-    margin-bottom: 0;
-  }
-
-  /*section*/
-
-  .section {
-    padding: 40px 0;
-  }
-
-  .section--devices {
-    padding-bottom: 0;
-  }
-
-  /*slider*/
-
-  .slider_text {
-    display: none;
-  }
-
-  .slider__item.active:before {
-    width: 50%;
-  }
-
-  /*srevises*/
-
-  .servises {
-    justify-content: center;
-  }
-
-  .servises__item {
-    width: 100%;
-    max-width: 400px;
-    padding-left: 55px;
-    padding-right: 0;
-  }
-
-  .servises__icon {
-    left: 0;
-  }
-
-  .wedo__image {
-    display: none;
-  }
-  .wedo__item {
-    width: 100%;
+  .intro__title {
+    font-size: 40px;
   }
 }
 
@@ -1260,52 +1155,5 @@ hr {
   }
   .intro__title {
     font-size: 40px;
-  }
-
-  /*section*/
-
-  .section__header {
-    margin-bottom: 50px;
-  }
-
-  .section__title {
-    font-size: 22px;
-  }
-
-  .section__subtitle {
-    font-size: 20px;
-  }
-
-  .section__title:after {
-    margin: 20px auto;
-  }
-
-  /*stat*/
-
-  .stat__item {
-    flex: none;
-    width: 100%;
-    border-bottom: 1px solid #b5eae0;
-
-    padding: 30px 0;
-  }
-
-  .stat__item:last-child {
-    border: 0;
-  }
-
-  .stat__count {
-    font-size: 52px;
-  }
-
-  /*divaces*/
-  .divaces {
-    max-width: 320px;
-  }
-
-  .divaces__item--iphone {
-    width: 180px;
-    bottom: -50px;
-    right: -80px;
   }
 }

@@ -486,19 +486,10 @@ hr {
 
 .wedo {
   display: flex;
-  flex-wrap: wrap;
-  margin: 0 -15px;
 }
 
 .wedo__item {
   width: 50%;
-  padding: 0 15px;
-}
-
-.wedo__image {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
 
 /*accordion*/
@@ -1244,13 +1235,6 @@ hr {
   .servises__icon {
     left: 0;
   }
-
-  .wedo__image {
-    display: none;
-  }
-  .wedo__item {
-    width: 100%;
-  }
 }
 
 @media (max-width: 575px) {
@@ -1301,11 +1285,5 @@ hr {
   /*divaces*/
   .divaces {
     max-width: 320px;
-  }
-
-  .divaces__item--iphone {
-    width: 180px;
-    bottom: -50px;
-    right: -80px;
   }
 }

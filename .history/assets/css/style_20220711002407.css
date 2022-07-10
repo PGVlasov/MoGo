@@ -486,13 +486,11 @@ hr {
 
 .wedo {
   display: flex;
-  flex-wrap: wrap;
   margin: 0 -15px;
 }
 
 .wedo__item {
   width: 50%;
-  padding: 0 15px;
 }
 
 .wedo__image {
@@ -1243,13 +1241,6 @@ hr {
 
   .servises__icon {
     left: 0;
-  }
-
-  .wedo__image {
-    display: none;
-  }
-  .wedo__item {
-    width: 100%;
   }
 }
 
