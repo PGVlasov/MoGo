@@ -683,17 +683,6 @@ hr {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 -15px;
-}
-
-.logos__item {
-  padding: 0 15px;
-}
-
-.logos__img {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
 
 /*works*/
@@ -1356,30 +1345,5 @@ hr {
     width: 180px;
     bottom: -50px;
     right: -80px;
-  }
-
-  /*rewiews*/
-
-  .reviews {
-    padding: 0;
-  }
-
-  .reviews__button {
-    top: 18%;
-  }
-
-  /*logos*/
-
-  .logos {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .logos__item {
-    width: 50%;
-    margin-bottom: 10px;
-  }
-
-  .logos__img {
-    margin: 0 auto;
   }
 }

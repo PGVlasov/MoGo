@@ -1376,10 +1376,9 @@ hr {
   }
   .logos__item {
     width: 50%;
-    margin-bottom: 10px;
   }
 
   .logos__img {
-    margin: 0 auto;
+    margin: 10px auto;
   }
 }
