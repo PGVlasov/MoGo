@@ -13,12 +13,6 @@ body {
   box-sizing: border-box;
 }
 
-/*page*/
-
-.page {
-  overflow: hidden;
-}
-
 /* container*/
 .container {
   width: 100%;
@@ -1271,15 +1265,6 @@ hr {
 }
 
 @media (max-width: 770px) {
-  /* Intro */
-  .intro {
-    max-height: 450px;
-  }
-
-  /* Header */
-  .header {
-    padding: 10px 0;
-  }
   /*Nav*/
   .nav {
     display: none;
@@ -1361,7 +1346,7 @@ hr {
     font-size: 20px;
   }
 
-  /*works*/
+  /*workd*/
 
   .works {
     flex-wrap: wrap;
@@ -1446,7 +1431,7 @@ hr {
   .divaces__item--iphone {
     width: 180px;
     bottom: -50px;
-    right: -80px;
+    right: -40px;
   }
 
   /*rewiews*/

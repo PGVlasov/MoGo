@@ -13,12 +13,6 @@ body {
   box-sizing: border-box;
 }
 
-/*page*/
-
-.page {
-  overflow: hidden;
-}
-
 /* container*/
 .container {
   width: 100%;

@@ -13,12 +13,6 @@ body {
   box-sizing: border-box;
 }
 
-/*page*/
-
-.page {
-  overflow: hidden;
-}
-
 /* container*/
 .container {
   width: 100%;
@@ -826,7 +820,6 @@ hr {
 
 .blog {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -954,15 +947,8 @@ hr {
 
 .footer__inner {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   padding-bottom: 65px;
-
-  margin: 0 -15px;
-}
-
-.footer__col {
-  padding: 0 15px;
 }
 
 .footer__col--first {
@@ -1144,15 +1130,13 @@ hr {
 }
 
 .instagram__item {
-  width: 33%;
+  width: 32.3333333%;
 
   border-bottom: 1px solid #fff;
 }
 
 .instagram__item img {
   display: block;
-  max-width: 100%;
-  height: auto;
 }
 
 .copyright {
@@ -1244,42 +1228,9 @@ hr {
     width: 100%;
     padding-right: 0;
   }
-
-  .clients__item:last-child {
-    margin-bottom: 0px;
-  }
-
-  /*footer*/
-
-  .footer__col--first {
-    width: 100%;
-  }
-
-  .footer__col--second,
-  .footer__col--third {
-    width: 50%;
-  }
-
-  .instagram {
-    justify-content: flex-start;
-  }
-
-  .instagram__item {
-    width: auto;
-    border-radius: 1px solid #fff;
-  }
 }
 
 @media (max-width: 770px) {
-  /* Intro */
-  .intro {
-    max-height: 450px;
-  }
-
-  /* Header */
-  .header {
-    padding: 10px 0;
-  }
   /*Nav*/
   .nav {
     display: none;
@@ -1361,7 +1312,7 @@ hr {
     font-size: 20px;
   }
 
-  /*works*/
+  /*workd*/
 
   .works {
     flex-wrap: wrap;
@@ -1369,27 +1320,6 @@ hr {
   .works__col {
     flex: none;
     width: 50%;
-  }
-
-  /*blog*/
-  .blog {
-    max-width: 380px;
-    margin: 0 auto;
-  }
-
-  .blog__item {
-    width: 100%;
-    margin-bottom: 30px;
-  }
-
-  .blog__item:last-child {
-    margin-bottom: 0;
-  }
-
-  /*footer*/
-  .footer__col--second,
-  .footer__col--third {
-    width: 100%;
   }
 }
 
@@ -1490,33 +1420,7 @@ hr {
     text-align: center;
   }
 
-  .claents__text::before {
+  .claents__text::after {
     margin: 15px auto;
-  }
-
-  /*blogs*/
-  .blogs__img {
-    width: 80px;
-    height: 50px;
-  }
-
-  .blogs__title {
-    font-size: 10px;
-  }
-
-  /*subscribe*/
-  .subscribe {
-    flex-wrap: wrap;
-
-    max-width: none;
-  }
-
-  .subscribe__input {
-    width: 100%;
-    border-right: 1px solid #e7e7e7;
-  }
-
-  .subscribe__button {
-    width: 100%;
   }
 }

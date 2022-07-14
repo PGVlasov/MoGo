@@ -13,12 +13,6 @@ body {
   box-sizing: border-box;
 }
 
-/*page*/
-
-.page {
-  overflow: hidden;
-}
-
 /* container*/
 .container {
   width: 100%;
@@ -1361,7 +1355,7 @@ hr {
     font-size: 20px;
   }
 
-  /*works*/
+  /*workd*/
 
   .works {
     flex-wrap: wrap;
@@ -1446,7 +1440,7 @@ hr {
   .divaces__item--iphone {
     width: 180px;
     bottom: -50px;
-    right: -80px;
+    right: -40px;
   }
 
   /*rewiews*/

@@ -13,12 +13,6 @@ body {
   box-sizing: border-box;
 }
 
-/*page*/
-
-.page {
-  overflow: hidden;
-}
-
 /* container*/
 .container {
   width: 100%;
@@ -1271,15 +1265,6 @@ hr {
 }
 
 @media (max-width: 770px) {
-  /* Intro */
-  .intro {
-    max-height: 450px;
-  }
-
-  /* Header */
-  .header {
-    padding: 10px 0;
-  }
   /*Nav*/
   .nav {
     display: none;
@@ -1361,7 +1346,7 @@ hr {
     font-size: 20px;
   }
 
-  /*works*/
+  /*workd*/
 
   .works {
     flex-wrap: wrap;
@@ -1384,12 +1369,6 @@ hr {
 
   .blog__item:last-child {
     margin-bottom: 0;
-  }
-
-  /*footer*/
-  .footer__col--second,
-  .footer__col--third {
-    width: 100%;
   }
 }
 
@@ -1492,31 +1471,5 @@ hr {
 
   .claents__text::before {
     margin: 15px auto;
-  }
-
-  /*blogs*/
-  .blogs__img {
-    width: 80px;
-    height: 50px;
-  }
-
-  .blogs__title {
-    font-size: 10px;
-  }
-
-  /*subscribe*/
-  .subscribe {
-    flex-wrap: wrap;
-
-    max-width: none;
-  }
-
-  .subscribe__input {
-    width: 100%;
-    border-right: 1px solid #e7e7e7;
-  }
-
-  .subscribe__button {
-    width: 100%;
   }
 }
